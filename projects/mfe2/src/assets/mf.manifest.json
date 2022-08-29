@@ -1,0 +1,9 @@
+{
+    "mfe1": {
+        "remoteEntry": "https://3000-lkawka-modulefederation-m4jkuuhu02h.ws-us63.gitpod.io/remoteEntry.js",
+        "exposedModule": "./Module",
+        "displayName": "Buy Crypto",
+        "routePath": "cryptos",
+        "ngModuleName": "CryptosModule"
+    }
+}

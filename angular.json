@@ -75,7 +75,7 @@
 					"options": {
 						"browserTarget": "mfe1:build",
 						"port": 3000,
-						"publicHost": "http://localhost:3000",
+						"publicHost": "https://3000-lkawka-modulefederation-m4jkuuhu02h.ws-us63.gitpod.io/",
 						"extraWebpackConfig": "projects/mfe1/webpack.config.js"
 					},
 					"configurations": {
@@ -199,7 +199,7 @@
 					"options": {
 						"browserTarget": "shell:build",
 						"port": 5001,
-						"publicHost": "http://localhost:5001",
+						"publicHost": "https://5001-lkawka-modulefederation-m4jkuuhu02h.ws-us63.gitpod.io",
 						"extraWebpackConfig": "projects/shell/webpack.config.js"
 					},
 					"configurations": {

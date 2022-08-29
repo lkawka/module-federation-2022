@@ -11,11 +11,11 @@ import { buildRoutes } from './utilities/routes';
 export class AppComponent implements OnInit {
   title = 'shell';
   remotes: CustomRemoteConfig[] = [];
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
   async ngOnInit(): Promise<void> {
-	const manifest = getManifest<CustomManifest>();
-	const routes = buildRoutes(manifest);
-	this.router.resetConfig(routes);
-	this.remotes = Object.values(manifest);
+    const manifest = getManifest<CustomManifest>();
+    const routes = buildRoutes(manifest);
+    this.router.resetConfig(routes);
+    this.remotes = Object.values(manifest);
   }
 }
